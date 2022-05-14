@@ -1,0 +1,1 @@
+tensorflowjs_converter --input_format=keras C:\Users\jeetg\Downloads\Compressed\Face-Mask-Detection123\Face-Mask-Detection-master\mask_detector.h5 C:\Users\jeetg\Downloads\Compressed\Face-Mask-Detection123\Face-Mask-Detection-master
