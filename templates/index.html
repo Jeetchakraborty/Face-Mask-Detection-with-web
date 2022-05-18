@@ -9,22 +9,30 @@
 </head>
 <style>
 
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    padding-right: 0;
+    padding-left: 0;
+
+}
+
 </style>
-<body >
-	<div class="container p-0" >
+<body style="background-image: url('../static/Face_mask.jpeg'); background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;">
+	<div class="container-fluid" >
 		<header >
-	      <nav class="navbar navbar-dark bg-dark rounded">
-	        <a class="navbar-brand">
+	      <nav class="navbar bg-warning">
+	        <a class="navbar-brand text-dark">
 	        	<i class="fas fa-camera"></i>
-	        	<strong>Face Masks Detection</strong>
+	        	 <strong> Face Masks Detection</strong>
 	        </a>
 	      </nav>
 	    </header>
 	</div>
 	
 
-	<div class="container">
-		<div class="row bg-light" style="height:480px">
+	<div class="container r">
+		<div class="row" style="height:480px">
 			<video id="video" playsinline class="border " style="margin:auto;display:inline-block;"></video>
 			<canvas id="output" class="canvas-output" style="margin:auto;position:relative;top:-480px;left:10px"></canvas>
 		</div>
