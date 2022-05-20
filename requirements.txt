@@ -142,7 +142,6 @@ protobuf==3.19.1
 py==1.11.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-PyAudio @ file:///C:/Users/jeetg/pipwin/PyAudio-0.2.11-cp38-cp38-win_amd64.whl
 pycparser==2.21
 pycryptodome==3.11.0
 pydub==0.25.1
